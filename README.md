@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/lucasdaher/blog-preview-card)
-- Live Site URL: []()
+- Live Site URL: [Netlify Live Site](https://lucasdaher-blogpreviewcard.netlify.app/)
 
 ## My process
 
