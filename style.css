@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+:root {
+    --yellow: #F4D04E;
+    --pure-white: #FFFFFF;
+    --black: #111;
+}
+
+body {
+    background-color: var(--yellow);
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 384px;
+    height: auto;
+
+    background-color: var(--pure-white);
+    
+    border-radius: 20px;
+    border: 1px solid var(--black, #111);
+    box-shadow: 8px 8px 0px 0px #000;
+
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container .banner-img img {
+    border-radius: 10px;
+}
+
+.container .author img {
+    max-width: 32px;
+}
+
+.container .author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.content .tags {
+    display: flex;
+    gap: 8px;
+}
+
+.content .tags p {
+    border-radius: 4px;
+    background: var(--Yellow, #F4D04E);
+
+    padding: 4px 12px;
+
+    color: var(--Black, #111);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.container .content .publish-date {
+    color: var(--Black, #111);
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.container .content .content-title h1 {
+    color: var(--Yellow, #F4D04E);
+
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.container .content .content-desc {
+    color: var(--Grey, #7F7F7F);
+
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.container .author h3 {
+    color: var(--Black, #111);
+
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.attribution {
+    margin: 50px;
+}
+
+/* Responsive */
+@media screen and (max-width: 450px) {
+    .container {
+        width: 90%;
+        max-width: 327px;
+    }
+
+    .container .banner-img img {
+        max-width: 100%;
+    }
+}
