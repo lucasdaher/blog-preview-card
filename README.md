@@ -32,5 +32,30 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repository](https://github.com/lucasdaher/blog-preview-card)
+- Live Site URL: []()
+
+## My process
+
+I started the project with HTML creating all the necessary divisions and classes and then I styled it with css and aligned it using Flexbox.
+
+### Built with
+
+- Flexbox
+
+### What I learned
+
+I learned how to manipulate the **flexbox** in another type of situation and align the card to the center of the screen regardless of the resolution, making it **responsive**.
+
+### Continued development
+
+Regarding the project, I want to continue delving into responsiveness and flexboxing.
+
+## Author
+
+- GitHub - [My GitHub](https://github.com/lucasdaher)
+- Frontend Mentor - [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/lucasdaher)
+
+## Acknowledgments
+
+I get a lot of inspiration from a content creator called **ASMR Prog** ([YouTube ASMR Prog](https://www.youtube.com/@AsmrProg)). Some of his content, even if it is unexplained, ended up helping me at the beginning when I was learning and to this day it has been helping and influencing me a lot.
