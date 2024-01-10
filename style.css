@@ -88,13 +88,20 @@ body {
 }
 
 .container .content .content-title h1 {
-    color: var(--Yellow, #F4D04E);
+    color: var(--black);
 
     font-family: Figtree;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: 150%;
+
+    cursor: pointer;
+    transition: color 0.1s ease;
+}
+
+.container .content .content-title h1:hover {
+    color: var(--Yellow, #F4D04E);
 }
 
 .container .content .content-desc {
